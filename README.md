@@ -82,7 +82,7 @@ Retorno:
 }
 ```
 
-` ` ` ` Listagem de Produtos: `GET http://localhost:3001/product/`
+` ` ` ` Listagem de Produtos: `GET http://localhost:3000/product/`
 ```
 Não é necessário enviar corpo de requisição.
 ```
@@ -140,7 +140,7 @@ Retorno:
 }
 ```
 
-` ` ` ` Deleção de Produto: `DELETE http://localhost:3001/product/:id/`
+` ` ` ` Deleção de Produto: `DELETE http://localhost:3000/product/:id/`
 ```
 Não é necessário enviar corpo de requisição.
 ```

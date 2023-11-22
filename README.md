@@ -4,8 +4,7 @@ BS GÁS - REQUISIÇÕES API
 
 PRODUTOS
 
-Criação de Produto: `POST http://localhost:3000/product/`
-
+` ` ` ` Criação de Produto: `POST http://localhost:3000/product/`
 ```
 {
     "operation": "002-COMPRA",
@@ -83,7 +82,18 @@ Retorno:
 }
 ```
 
-Edição de Produto: `PATCH http://localhost:3000/product/:id`
+` ` ` ` Listagem de Produtos: `GET http://localhost:3001/product/`
+```
+Não é necessário enviar corpo de requisição.
+```
+Retorno:
+```
+[
+	ARRAY DE OBJETOS
+]
+```
+
+` ` ` ` Edição de Produto: `PATCH http://localhost:3000/product/:id`
 
 ```
 {
@@ -129,11 +139,23 @@ Retorno:
 	"id": 1
 }
 ```
-Deleção de Produto: `DELETE http://localhost:3001/product/:id/`
+
+` ` ` ` Deleção de Produto: `DELETE http://localhost:3001/product/:id/`
 ```
 Não é necessário enviar corpo de requisição.
 ```
 Retorno:
 ```
 No body returned for response
+```
+
+` ` ` ` Captura de Produto Por ID: `GET http://localhost:3000/product/:id/`
+```
+Não é necessário enviar corpo de requisição.
+```
+Retorno:
+```
+{
+	PRODUTO
+}
 ```
